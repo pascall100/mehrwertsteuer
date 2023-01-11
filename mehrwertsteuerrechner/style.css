@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(210, 207, 207);
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+input[type="text"] {
+    border: 2px solid green;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  form {
+    padding: 15px;
+  }
+  input[type="text"] {
+    font-size: 16px;
+    padding: 5px;
+    margin: 5px 0;
+  }
+  label {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+}
